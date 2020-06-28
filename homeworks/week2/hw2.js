@@ -2,9 +2,9 @@ function capitalize(str) {
     var result=''
 
     if (str[0] >= 'a' && str[0] <= 'z') {
-        result += str[0].toUpperCase()
+        result = str[0].toUpperCase()
     } else {
-        result += str[0]
+        result = str[0]
     }
 
     for (var i = 1; i < str.length; i++) {
